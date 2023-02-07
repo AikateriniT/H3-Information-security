@@ -25,8 +25,21 @@ y) Write an answer with references (this subtask does not require tests with a c
 Define tactic and give an example.
 Define technique and subtechnique, and give an example of each.
 Define procedure, and give an example of each.
+
+
 ____________________________________________________________________________________________
 
+____________________________________________________________________________________________
+WebGoat Sensitive Data Exposure: Insecure Login
+____________________________________________________________________________________________
+
+Encryption is a very important tool for secure communication. Data encryption must always be used when we send sensitive data.
+
+    - Basic understanding of packet sniffer usage
+    - The user will be able to intercept and read encrypted requests
+
+____________________________________________________________________________________________
+Voluntary:
 WebGoat - Injection (advanced)
 
 The goals of this part is to teach the more advanced topics for an SQL injection by combining SQL injection techniques and the Blind SQL injection.
@@ -72,4 +85,39 @@ Then we will try to figure out how to do it by using UNION.
     Hint! he datatype of the first column in the first SELECT statement, must catch the datatype of the first 
     column in the second(third, fourth..) SELECT stetement. The same applies to all other columns. 
     
-    The password of Dave is: 
+    The password of Dave is: passW0rD
+    
+![2](https://user-images.githubusercontent.com/113516460/217311180-76397ea9-0ec0-45b8-9e5f-9b79c1a7b06f.JPG)
+
+Task 5:
+_______________________________________________________________________________________________
+In this task we must brute force ourselves in the system. We only know that the username is Tom and nothing more. 
+I can tell you already that this task took me around 1,5 hour to complete and half a packet of cigarettes. 
+But lets see how we will manage to get ourselves in. 
+
+First I tried to log in with any variable but I was always getting an error, that 'no results matched', so then I thought that I might need to register Tom as a user. But to my surprise Tom user already exists. 
+
+Since we are doing 'blind attacks' we gather all the information given. As true, false or error. 
+So when we try to add as a user  TOM' AND '1'='1, we receive the message that {0} user already exists. We may get a hint here that the username field is susceptible to SQL injection. 
+
+The other goal is to find out what is the name of the table that the passwords are listed. If this exersice is very basic as I am guessing, then the name of the table might be "password". So I will start a long journey guessing the letters from Tom's password. I will use the statement "User{0} already exists" as a true statement. 
+
+Using the string from the last page and adapting it to the needs of this attempt to log in we have:
+
+    tom' AND substring(password,1,1)='t
+    
+From this we understand that letter "t" is the first letter of Tom's password. 
+
+Then I couldn't manage to figure our what was happening so I had to watch a long video about how to brute force. From my perspective the material that was given before this assignment was not enough to manage to solve this. NetworkChuck is one of my sources. 
+
+I'll continue the explanation soon!
+
+
+
+
+
+SOURCES
+______________________________________________________________________________________________
+
+https://www.youtube.com/watch?v=2OPVViV-GQk
+https://www.youtube.com/watch?v=z4_oqTZJqCo
