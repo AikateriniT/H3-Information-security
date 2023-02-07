@@ -59,19 +59,42 @@ Define technique and subtechnique, and give an example of each.
 Define procedure, and give an example of each.
 ____________________________________________________________________________________________
 Define tactic and give an example.
-
+-----------------------------------------------------------------------------------------------------------------
      - A specific malevolent behaviour which has a set of techniques
      - Each tactic represents a tactical goal, for this reason the perpetrator is showing a specific behaviour.
-     - For example credential access is a tactic used by the attacker in order to get legitimate access codes and credentials from the victim, in order to create more accounts with the real ID of the victim. So by disguising as the victim they can exploit their financial status and place orders or exploit people from their family environment, by fooling them that he is actually the victim. 
+     - For example credential access is a tactic used by the attacker in order to get legitimate access codes 
+     and credentials from the victim, in order to create more accounts with the real ID of the victim. So by 
+     disguising as the victim they can exploit their financial status and place orders or exploit people from 
+     their family environment, by fooling them that he is actually the victim. 
 
 Define technique and subtechnique, and give an example of each.
-
-    - As technique is defined 
+------------------------------------------------------------------------------------------------------------------
+    - As technique is defined the interaction the perpetrator has with the system during a malevolent operation. 
+    By the time this book was written there were about 183 techniques and 372 sub-techniques. 
+    - MITRE ATT&CK Techniques outline a particular way to achieve the goal of a Tactic. 
+    For example: The brute force technique for credential access in the enterprise Matrix has four sub-techniques:
+        - Password guessing
+        - Password cracking
+        - Password spraying
+        - Credential stuffing
+    - So as a sub-technique we can define the ways to carry out the main Technique but take advantage of different 
+    mechanisms to do so.
 
 
 Define procedure, and give an example of each.
+-------------------------------------------------------------------------------------------------------------------
 
-    - 
+    - While procedures do not appear in the MITRE ATT&CK Framework matrices, they do occur. 
+    - The procedures that which can be viewed by clicking on a particular Technique or sub-technique show with 
+    detail known implementations. 
+    For example they can include known malware variants that they use a known method or threat actors whose TTPs 
+    include the said technique or subtechnique. 
+    A Procedure is a “what”.  An example of a Procedure for Credential Access would be a password cracking tool 
+    like Hashcat or John the Ripper.
+
+A Procedure may use multiple different Sub-Techniques, and many different Procedures may implement the same 
+Sub-Technique.
+
 ____________________________________________________________________________________________
 WebGoat Sensitive Data Exposure: Insecure Login
 ____________________________________________________________________________________________
