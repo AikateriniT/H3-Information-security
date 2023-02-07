@@ -76,7 +76,7 @@ Define technique and subtechnique, and give an example of each.
     For example: The brute force technique for credential access in the enterprise Matrix has four sub-techniques:
         - Password guessing
         - Password cracking
-        - Password spraying
+        - Password spraying 
         - Credential stuffing
     - So as a sub-technique we can define the ways to carry out the main Technique but take advantage of different 
     mechanisms to do so.
