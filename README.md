@@ -20,6 +20,7 @@ ATT&CK Framework
     actor is capable of carrying out in order to get a foothold and operate inside a system.
     - It works as a common language that both offensive and defensive researchers can use to better 
     understand each other and to better communicate with people not specialized in the field.
+    - Creation of tactics 
     
 14 tactics that it uses:
 
@@ -30,7 +31,8 @@ ATT&CK Framework
     - Persistence: The ability of the attacker to remain in the victim's system.
     - Privilege Escalation: Obtaining further access in the victim's system.
     - Defense Evasion: The ways that the perpetrator manages to remain invisible in the system.
-    - Credential Access: The attacker manages to obtain real credentials of the victim in order to gain access in other environments.
+    - Credential Access: The attacker manages to obtain real credentials of the victim in order 
+    to gain access in other environments.
     - Discovery: The attacker gets information about victim's system constitution.
     - Lateral Movement: The attacker manages to move around victim's system.
     - Collection: The attacker gets information from the victim for future use.
@@ -46,18 +48,9 @@ All the information, included in the techniques, makes ATT&CK an excellent resou
 THE ATT&CK NAVIGATOR
 
 In this chapter there is a great description, showing how to reduce the risk of getting hacked by choosing the correct layers. 
-        - This tool is a great instrument for visualizing a threat actor's modus operandi, the 
+
+        This tool is a great instrument for visualizing a threat actor's modus operandi, the 
         behavior of a specific tool, or to generate a security exercise.
-
-MAPPING WITH ATT&CK
-
-
-       
-
-____________________________________________________________________________________________
-
-
-
 
 ____________________________________________________________________________________________
 y) Write an answer with references (this subtask does not require tests with a computer). Answer in the context of Mitre Att&ck, and pick examples that are different from the chapter in task x.
@@ -67,14 +60,18 @@ Define procedure, and give an example of each.
 ____________________________________________________________________________________________
 Define tactic and give an example.
 
- - A specific malevolent behaviour which has a set of techniques
- - 
+     - A specific malevolent behaviour which has a set of techniques
+     - Each tactic represents a tactical goal, for this reason the perpetrator is showing a specific behaviour.
+     - For example credential access is a tactic used by the attacker in order to get legitimate access codes and credentials from the victim, in order to create more accounts with the real ID of the victim. So by disguising as the victim they can exploit their financial status and place orders or exploit people from their family environment, by fooling them that he is actually the victim. 
 
 Define technique and subtechnique, and give an example of each.
 
+    - As technique is defined 
 
 
 Define procedure, and give an example of each.
+
+    - 
 ____________________________________________________________________________________________
 WebGoat Sensitive Data Exposure: Insecure Login
 ____________________________________________________________________________________________
