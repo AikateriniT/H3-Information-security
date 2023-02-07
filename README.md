@@ -14,6 +14,33 @@ Chapter 4: Mapping the Adversary.
 
 In the 4th chapter the author explains how to work with the MITRE ATT&CK Framework, and making reports on the topics: - The ATT&CK Framework - Mapping with ATT&CK - Testing ourselves
 
+ATT&CK Framework
+
+    - The ATT&CK Framework is a descriptive model used to label and study the activities that a threat 
+    actor is capable of carrying out in order to get a foothold and operate inside a system.
+    - It works as a common language that both offensive and defensive researchers can use to better 
+    understand each other and to better communicate with people not specialized in the field.
+14 tactics that it uses:
+
+    - Reconnaissance:
+    - Resource Development:
+    - Initial Access:
+    - Execution:
+    - Persistence:
+    - Privilege Escalation:
+    - Defense Evasion:
+    - Credential Access:
+    - Discovery: 
+    - Lateral Movement:
+    - Collection:
+    - Command and Control:
+    - Exfiltration: 
+    - Impact: 
+    
+The ATT&CK Matrix
+
+    
+    
 
 ____________________________________________________________________________________________
 
@@ -25,12 +52,15 @@ y) Write an answer with references (this subtask does not require tests with a c
 Define tactic and give an example.
 Define technique and subtechnique, and give an example of each.
 Define procedure, and give an example of each.
-
-
 ____________________________________________________________________________________________
 Define tactic and give an example.
 
+ - A specific malevolent behaviour which has a set of techniques
+ - 
+
 Define technique and subtechnique, and give an example of each.
+
+
 
 Define procedure, and give an example of each.
 ____________________________________________________________________________________________
