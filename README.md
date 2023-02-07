@@ -20,27 +20,39 @@ ATT&CK Framework
     actor is capable of carrying out in order to get a foothold and operate inside a system.
     - It works as a common language that both offensive and defensive researchers can use to better 
     understand each other and to better communicate with people not specialized in the field.
+    
 14 tactics that it uses:
 
-    - Reconnaissance:
-    - Resource Development:
-    - Initial Access:
-    - Execution:
-    - Persistence:
-    - Privilege Escalation:
-    - Defense Evasion:
-    - Credential Access:
-    - Discovery: 
-    - Lateral Movement:
-    - Collection:
-    - Command and Control:
-    - Exfiltration: 
-    - Impact: 
+    - Reconnaissance: gathering information about the victim information. 
+    - Resource Development: The attacker makes an assessment of his resources.
+    - Initial Access: description of how the attacker gets access in the victim's system.
+    - Execution: It means the execution of malevolent code in the victim's system.
+    - Persistence: The ability of the attacker to remain in the victim's system.
+    - Privilege Escalation: Obtaining further access in the victim's system.
+    - Defense Evasion: The ways that the perpetrator manages to remain invisible in the system.
+    - Credential Access: The attacker manages to obtain real credentials of the victim in order to gain access in other environments.
+    - Discovery: The attacker gets information about victim's system constitution.
+    - Lateral Movement: The attacker manages to move around victim's system.
+    - Collection: The attacker gets information from the victim for future use.
+    - Command and Control: Managing to communicate with the victim's system.
+    - Exfiltration: Stealing personal information from the victim while he stays invisible.
+    - Impact: Preventing the victim from gaining access to his own system.
     
 The ATT&CK Matrix
 
+All the information, included in the techniques, makes ATT&CK an excellent resource for planning blue and red teaming exercises, studying threat actors, crafting your own threat hunting plan, mapping defensive controls, or even a means for studying cybersecurity concepts.
+
     
-    
+THE ATT&CK NAVIGATOR
+
+In this chapter there is a great description, showing how to reduce the risk of getting hacked by choosing the correct layers. 
+        - This tool is a great instrument for visualizing a threat actor's modus operandi, the 
+        behavior of a specific tool, or to generate a security exercise.
+
+MAPPING WITH ATT&CK
+
+
+       
 
 ____________________________________________________________________________________________
 
@@ -71,6 +83,8 @@ Encryption is a very important tool for secure communication. Data encryption mu
 
     - Basic understanding of packet sniffer usage
     - The user will be able to intercept and read encrypted requests
+    
+I found this task rather hard to finish so I will try again after the course on wednesday
 
 ____________________________________________________________________________________________
 Voluntary:
@@ -154,4 +168,7 @@ SOURCES
 ______________________________________________________________________________________________
 
 https://www.youtube.com/watch?v=2OPVViV-GQk
+
 https://www.youtube.com/watch?v=z4_oqTZJqCo
+
+https://github.com/AikateriniT/SECURITY-VOCABULARY/blob/main/README.md
