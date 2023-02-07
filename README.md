@@ -6,7 +6,15 @@ The link is:
 https://github.com/AikateriniT/SECURITY-VOCABULARY
 ____________________________________________________________________________________________
 x) Read and summarize (This subtask x does not require tests with a computer. Some bullets per article is enough for your summary, feel free to write more if you like)
-€ Costa-Gazcón 2021: Practical Threat Intelligence and Data-Driven Threat Hunting Chapter 4: Mapping the Adversary (all but "Testing yourself", which is left as voluntary bonus)
+
+    € Costa-Gazcón 2021: Practical Threat Intelligence and Data-Driven Threat Hunting 
+    Chapter 4: Mapping the Adversary (all but "Testing yourself", which is left as voluntary bonus)'
+    
+Chapter 4: Mapping the Adversary.
+
+In the 4th chapter the author explains how to work with the MITRE ATT&CK Framework, and making reports on the topics: - The ATT&CK Framework - Mapping with ATT&CK - Testing ourselves
+
+
 ____________________________________________________________________________________________
 
 
@@ -18,3 +26,8 @@ Define tactic and give an example.
 Define technique and subtechnique, and give an example of each.
 Define procedure, and give an example of each.
 ____________________________________________________________________________________________
+
+WebGoat - Injection (advanced)
+
+
+
