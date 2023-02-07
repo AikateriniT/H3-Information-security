@@ -1,4 +1,5 @@
-Task 1:
+TASK 1:
+____________________________________________________________________________________________
 
 I decided to create another repository with useful vocabulary and definitions that will be extremelly useful for me during the entire class. 
 
@@ -11,11 +12,11 @@ x) Read and summarize (This subtask x does not require tests with a computer. So
     Chapter 4: Mapping the Adversary (all but "Testing yourself", which is left as voluntary bonus)'
     
 Chapter 4: Mapping the Adversary.
-
+---------------------------------------------------------------------------------------------
 In the 4th chapter the author explains how to work with the MITRE ATT&CK Framework, and making reports on the topics: - The ATT&CK Framework - Mapping with ATT&CK - Testing ourselves
 
 ATT&CK Framework
-
+---------------------------------------------------------------------------------------------
     - The ATT&CK Framework is a descriptive model used to label and study the activities that a threat 
     actor is capable of carrying out in order to get a foothold and operate inside a system.
     - It works as a common language that both offensive and defensive researchers can use to better 
@@ -23,7 +24,7 @@ ATT&CK Framework
     - Creation of tactics 
     
 14 tactics that it uses:
-
+---------------------------------------------------------------------------------------------
     - Reconnaissance: gathering information about the victim information. 
     - Resource Development: The attacker makes an assessment of his resources.
     - Initial Access: description of how the attacker gets access in the victim's system.
@@ -41,12 +42,12 @@ ATT&CK Framework
     - Impact: Preventing the victim from gaining access to his own system.
     
 The ATT&CK Matrix
-
+-----------------------------------------------------------------------------------------------------
 All the information, included in the techniques, makes ATT&CK an excellent resource for planning blue and red teaming exercises, studying threat actors, crafting your own threat hunting plan, mapping defensive controls, or even a means for studying cybersecurity concepts.
 
     
 THE ATT&CK NAVIGATOR
-
+-----------------------------------------------------------------------------------------------------
 In this chapter there is a great description, showing how to reduce the risk of getting hacked by choosing the correct layers. 
 
         This tool is a great instrument for visualizing a threat actor's modus operandi, the 
