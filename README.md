@@ -28,7 +28,11 @@ Define procedure, and give an example of each.
 
 
 ____________________________________________________________________________________________
+Define tactic and give an example.
 
+Define technique and subtechnique, and give an example of each.
+
+Define procedure, and give an example of each.
 ____________________________________________________________________________________________
 WebGoat Sensitive Data Exposure: Insecure Login
 ____________________________________________________________________________________________
