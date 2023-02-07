@@ -98,8 +98,7 @@ Sub-Technique.
 
 ____________________________________________________________________________________________
 WebGoat Sensitive Data Exposure: Insecure Login
-____________________________________________________________________________________________
-
+-------------------------------------------------------------------------------------------------------
 Encryption is a very important tool for secure communication. Data encryption must always be used when we send sensitive data.
 
     - Basic understanding of packet sniffer usage
@@ -110,7 +109,7 @@ I found this task rather hard to finish so I will try again after the course on 
 ____________________________________________________________________________________________
 Voluntary:
 WebGoat - Injection (advanced)
-
+-------------------------------------------------------------------------------------------------------
 The goals of this part is to teach the more advanced topics for an SQL injection by combining SQL injection techniques and the Blind SQL injection.
 
 Task 3: Pulling data from other tables.
