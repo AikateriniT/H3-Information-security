@@ -104,7 +104,13 @@ Encryption is a very important tool for secure communication. Data encryption mu
     - Basic understanding of packet sniffer usage
     - The user will be able to intercept and read encrypted requests
     
-I found this task rather hard to finish so I will try again after the course on wednesday
+I considered this task in the beginning a bit tricky but then I remembered about the POST and GET requests we reviewed at the first lessons. 
+So after that it was rather easy to figure out what I should do. 
+
+By right-clicking and inspecting the website we go to the Network tab and then we click the "Login" button in order to see the POST request. When we look a bit further in the POST request and in the request tab we can see that the password and username are written there. 
+
+![1](https://user-images.githubusercontent.com/113516460/217378457-89f31faf-236d-47f9-b6a5-1028ea91145b.JPG)
+
 
 ____________________________________________________________________________________________
 Voluntary:
@@ -192,3 +198,7 @@ https://www.youtube.com/watch?v=2OPVViV-GQk
 https://www.youtube.com/watch?v=z4_oqTZJqCo
 
 https://github.com/AikateriniT/SECURITY-VOCABULARY/blob/main/README.md
+
+https://resources.infosecinstitute.com/topic/mitre-attck-framework-techniques-sub-techniques-procedures-an-overview/
+
+
