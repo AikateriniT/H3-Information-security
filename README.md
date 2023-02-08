@@ -160,8 +160,6 @@ Then we will try to figure out how to do it by using UNION.
     column in the second(third, fourth..) SELECT stetement. The same applies to all other columns. 
     
     The password of Dave is: passW0rD
-    
-![2](https://user-images.githubusercontent.com/113516460/217311180-76397ea9-0ec0-45b8-9e5f-9b79c1a7b06f.JPG)
 
 Task 5:
 _______________________________________________________________________________________________
